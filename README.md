@@ -2,7 +2,7 @@
 
 A fun and interactive **Rock Paper Scissors** game built using **HTML**, **CSS**, and **JavaScript**. Challenge the computer, track your score, and enjoy a simple yet engaging browser-based gaming experience.
 
-> **Live Demo:** https://m0h1it.github.io/Rock-Paper-Scissors/ *(Update if your deployment URL is different.)*
+> **Live Demo:** https://m0h1it.github.io/Rock-Paper-Scissors/ *(Enable GitHub Pages in repo settings if this link doesn't load.)*
 
 ---
 
@@ -16,11 +16,10 @@ This project recreates the classic **Rock Paper Scissors** game with an intuitiv
 
 * 🎮 Play against the computer
 * ⚡ Instant game results
-* 📊 Live score tracking
+* 📊 Live score tracking (You vs Comp)
 * 🔄 Play unlimited rounds
-* 📱 Responsive design
 * 🎨 Clean and modern user interface
-* 🚀 Lightweight and fast
+* 🚀 Lightweight and fast — no dependencies, no build step
 
 ---
 
@@ -39,13 +38,10 @@ Rock-Paper-Scissors/
 │
 ├── index.html
 ├── style.css
-├── script.js
-├── images/
-│   ├── rock.png
-│   ├── paper.png
-│   ├── scissors.png
-│   └── ...
-│
+├── app.js
+├── rock.png
+├── paper.png
+├── scissors.png
 └── README.md
 ```
 
@@ -68,7 +64,6 @@ cd Rock-Paper-Scissors
 ### Run the project
 
 Simply open the `index.html` file in your preferred web browser.
-
 For a better development experience, use **VS Code Live Server**.
 
 ---
@@ -78,7 +73,6 @@ For a better development experience, use **VS Code Live Server**.
 1. Click on **Rock**, **Paper**, or **Scissors**.
 2. The computer randomly selects its move.
 3. The winner is determined based on the classic rules:
-
    * 🪨 Rock beats Scissors
    * ✂️ Scissors beats Paper
    * 📄 Paper beats Rock
@@ -87,34 +81,23 @@ For a better development experience, use **VS Code Live Server**.
 
 ---
 
-## 📱 Responsive Design
-
-The game is optimized for:
-
-* 💻 Desktop
-* 💼 Laptop
-* 📱 Mobile
-* 📟 Tablet
-
----
-
 ## 🎯 Learning Objectives
 
 This project helped strengthen my understanding of:
 
-* JavaScript Fundamentals
-* DOM Manipulation
-* Event Listeners
-* Random Number Generation
-* Conditional Statements
+* JavaScript fundamentals
+* DOM manipulation
+* Event listeners
+* Random number generation
+* Conditional statements
 * Functions
-* Responsive Web Design
-* UI Development
+* UI development
 
 ---
 
 ## 🔮 Future Improvements
 
+* 📱 Responsive layout with media queries
 * 🔊 Sound effects
 * 🎬 Animations and transitions
 * 🏆 Best score tracking
@@ -122,7 +105,7 @@ This project helped strengthen my understanding of:
 * 👥 Multiplayer mode
 * 🤖 Difficulty levels
 * 📈 Game statistics
-* 💾 Local Storage support
+* 💾 Local Storage support (persist score across reloads)
 
 ---
 
@@ -132,23 +115,17 @@ Contributions are welcome!
 
 1. Fork the repository
 2. Create a new feature branch
-
-```bash
-git checkout -b feature-name
-```
-
+   ```bash
+   git checkout -b feature-name
+   ```
 3. Commit your changes
-
-```bash
-git commit -m "Add new feature"
-```
-
+   ```bash
+   git commit -m "Add new feature"
+   ```
 4. Push the branch
-
-```bash
-git push origin feature-name
-```
-
+   ```bash
+   git push origin feature-name
+   ```
 5. Open a Pull Request
 
 ---
@@ -158,8 +135,8 @@ git push origin feature-name
 **Mohit Kumar**
 
 * GitHub: https://github.com/M0h1it
-* Portfolio: (https://portfolio-m0h1its-projects.vercel.app/)
-* LinkedIn: (https://www.linkedin.com/in/mohit-kumar-b2a80a20a/)
+* Portfolio: https://portfolio-m0h1its-projects.vercel.app/
+* LinkedIn: https://www.linkedin.com/in/mohit-kumar-b2a80a20a/
 
 ---
 
