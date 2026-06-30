@@ -87,18 +87,6 @@ For a better development experience, use **VS Code Live Server**.
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots after uploading them to your repository.
-
-Example:
-
-```markdown
-![Game Screenshot](screenshots/game.png)
-```
-
----
-
 ## 📱 Responsive Design
 
 The game is optimized for:
